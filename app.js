@@ -2,6 +2,11 @@ import { PDFDocument, rgb } from "pdf-lib";
 import fs from "fs";
 import fontkit from "@pdf-lib/fontkit";
 
+window.addEventListener("submit", (e) => {
+  e.preventDefault();
+  alert("Please ensure proper care of covid guidelines!!!");
+});
+
 async function createInvite() {
   const uint8Array = fs.readFileSync("./assets/Boys_invite.pdf");
   const doc = await PDFDocument.load(uint8Array);
