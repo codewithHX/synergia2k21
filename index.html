@@ -2,35 +2,158 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Synergia 2k21</title>
-    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css"
+      integrity="sha512-braXHF1tCeb8MzPktmUHhrjZBSZknHvjmkUdkAbeqtIrWwCchhcpUeAf2Sq3yIq1Q1x5PlroafjceOUbIE3Q5g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+    <title>Synergia 2021</title>
   </head>
   <body>
-    <div class="wrapper">
-      <header>Welcome to Synergia 2k21</header>
-      <h4>Download your invitation card from here</h4>
-      <form action="">
-        <div class="field email">
-          <div class="input-area">
-            <input type="text" placeholder="Full name" required />
-            <i class="icon fas fa-font"></i>
+    <div
+      class="
+        min-h-screen
+        bg-gray-100
+        py-6
+        flex flex-col
+        justify-center
+        sm:py-12
+        filter
+      "
+      style="background-image: url('/assets/bg.jpg'); background-size: cover"
+    >
+      <div class="relative py-3 sm:max-w-xl sm:mx-auto">
+        <div
+          class="
+            relative
+            px-4
+            py-10
+            bg-white
+            shadow-lg
+            sm:rounded-3xl sm:p-20
+            bg-clip-padding bg-opacity-60
+            border border-gray-200
+          "
+          style="backdrop-filter: blur(10px)"
+        >
+          <div class="max-w-md mx-auto">
+            <div class="text-center space-y-8">
+              <h1
+                class="
+                  text-4xl
+                  font-bold
+                  text-transparent
+                  bg-clip-text bg-gradient-to-br
+                  from-pink-400
+                  to-red-600
+                "
+              >
+                Welcome to Synergia 2k21
+              </h1>
+              <h6 class="text-xl font-semibold">
+                Download your invitation from here!!!
+              </h6>
+            </div>
+            <div class="divide-y divide-gray-200">
+              <div
+                class="
+                  py-8
+                  text-base
+                  leading-6
+                  space-y-6
+                  text-gray-700
+                  sm:text-lg sm:leading-7
+                  mt-7
+                  ml-16
+                "
+              >
+                <div>
+                  <label class="font-bold">Full Name</label>
+                  <input
+                    type="text"
+                    class="
+                      px-2
+                      py-2
+                      rounded-xl
+                      shadow-2xl
+                      outline-none
+                      text-pink-400
+                      font-medium
+                    "
+                  />
+                </div>
+                <div>
+                  <label class="font-bold">Roll Number</label>
+                  <input
+                    type="text"
+                    class="
+                      px-2
+                      py-2
+                      rounded-xl
+                      shadow-2xl
+                      outline-none
+                      text-pink-400
+                    "
+                  />
+                </div>
+                <div class="ml-24">
+                  <button
+                    type="button"
+                    class="
+                      rounded-xl
+                      bg-gradient-to-r
+                      from-pink-400
+                      to-red-400
+                      px-8
+                      py-3
+                      font-bold
+                    "
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+              <div
+                class="
+                  pt-6
+                  text-base
+                  leading-6
+                  font-bold
+                  sm:text-lg sm:leading-7
+                "
+              >
+                <p>For enquiries:</p>
+                <a
+                  href="tel:7754864813"
+                  class="
+                    font-bold
+                    text-transparent
+                    bg-clip-text bg-gradient-to-br
+                    from-pink-400
+                    to-red-600
+                  "
+                  >7754864813,</a
+                >
+                <a
+                  href="tel:7408909350"
+                  class="
+                    font-bold
+                    text-transparent
+                    bg-clip-text bg-gradient-to-br
+                    from-pink-400
+                    to-red-600
+                  "
+                  >7408909350</a
+                >
+              </div>
+            </div>
           </div>
         </div>
-        <div class="field password">
-          <div class="input-area">
-            <input type="text" placeholder="Roll Number" />
-            <i class="icon fas fa-sort-numeric-up-alt"></i>
-          </div>
-        </div>
-        <input type="submit" value="Download" required />
-      </form>
+      </div>
     </div>
-
-    <script src="app.js"></script>
   </body>
 </html>
