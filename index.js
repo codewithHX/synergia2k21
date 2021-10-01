@@ -1,4 +1,6 @@
 const data = {
+  ECC1903051: "Shreya Agrahari",
+  ECC1910036: "Shraddha Sonkar",
   ECC1905061: "Khushi Kesarwani",
   ECC1905045: "Sakshi Jain",
   ECC1905046: "Abhijeet Kushwaha",
@@ -16,8 +18,6 @@ const data = {
   ECC1905040: "Pradeep Kumar",
   ECC1905056: "Ankita Mishra",
   ECC1905029: "Vishul Kumar",
-  ECC190: "Harsh Shreya",
-  ECC190: "Harsh Shraddha",
   ECC1905016: "Sangam Singh Yadav",
   ECC2005050: "Kartikey Tripathi",
   ECC2005046: "Kajal singh",
