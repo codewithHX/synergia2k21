@@ -89,6 +89,7 @@ submit.addEventListener("click", (e) => {
   const val = roll_no.value.toUpperCase();
   if (data[val] != undefined) {
     generatePDF(data[val]);
+    alert("File downloaded succesfully");
   } else {
     alert("wrong input");
   }
