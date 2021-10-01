@@ -14,7 +14,7 @@ const data = {
   ECC1905015: "Piyush Singh",
   ECC1905005: "Anurag Singh Yadav",
   ECC1905030: "Anushka Jaiswal",
-  ECC1905060: "Farheen Sajid",
+  ECC1905062: "Farheen Sajid",
   ECC1905040: "Pradeep Kumar",
   ECC1905056: "Ankita Mishra",
   ECC1905029: "Vishul Kumar",
